@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://bxb8hvwcf524c"]
+
+[ext_resource type="Script" path="res://Item/item_data.gd" id="1_qunrf"]
+[ext_resource type="Texture2D" uid="uid://b74t5j6u8d86u" path="res://Item/Blocks_PixelArt.png" id="2_bopx8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3c3wb"]
+atlas = ExtResource("2_bopx8")
+region = Rect2(32, 32, 16, 16)
+
+[resource]
+script = ExtResource("1_qunrf")
+name = "square"
+index = 9
+description = "square"
+stachable = false
+texture = SubResource("AtlasTexture_3c3wb")

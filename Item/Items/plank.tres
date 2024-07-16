@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://balssviad2rg1"]
+
+[ext_resource type="Script" path="res://Item/item_data.gd" id="1_tyspu"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jxwu3"]
+load_path = "res://.godot/imported/Blocks_PixelArt.png-c337121c223a8ebd6b638525149a5d28.s3tc.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lwfcy"]
+atlas = SubResource("CompressedTexture2D_jxwu3")
+region = Rect2(16, 32, 16, 16)
+
+[resource]
+script = ExtResource("1_tyspu")
+name = "plank"
+index = 0
+description = "plank"
+stachable = false
+texture = SubResource("AtlasTexture_lwfcy")

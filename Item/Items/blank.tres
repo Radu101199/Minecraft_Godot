@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://tucdqodf200w"]
+
+[ext_resource type="Script" path="res://Item/item_data.gd" id="1_hvjvr"]
+[ext_resource type="Texture2D" uid="uid://b74t5j6u8d86u" path="res://Item/Blocks_PixelArt.png" id="2_naway"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4xlrk"]
+atlas = ExtResource("2_naway")
+region = Rect2(0, 64, 16, 16)
+
+[resource]
+script = ExtResource("1_hvjvr")
+name = "blank"
+index = 8
+description = "blank
+"
+stachable = false
+texture = SubResource("AtlasTexture_4xlrk")

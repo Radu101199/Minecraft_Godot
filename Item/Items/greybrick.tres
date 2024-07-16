@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://dv28068sdcbgn"]
+
+[ext_resource type="Script" path="res://Item/item_data.gd" id="1_puoot"]
+[ext_resource type="Texture2D" uid="uid://b74t5j6u8d86u" path="res://Item/Blocks_PixelArt.png" id="2_g6ldl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v7h0m"]
+atlas = ExtResource("2_g6ldl")
+region = Rect2(64, 16, 16, 16)
+
+[resource]
+script = ExtResource("1_puoot")
+name = "greybrick"
+index = 1
+description = "greybrick"
+stachable = false
+texture = SubResource("AtlasTexture_v7h0m")

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://ths8gjtuljco"]
+
+[ext_resource type="Script" path="res://Item/item_data.gd" id="1_wflbf"]
+[ext_resource type="Texture2D" uid="uid://b74t5j6u8d86u" path="res://Item/Blocks_PixelArt.png" id="2_q43vi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v7h0m"]
+atlas = ExtResource("2_q43vi")
+region = Rect2(32, 64, 16, 16)
+
+[resource]
+script = ExtResource("1_wflbf")
+name = "darkbrick"
+index = 10
+description = "darkbrick"
+stachable = false
+texture = SubResource("AtlasTexture_v7h0m")
